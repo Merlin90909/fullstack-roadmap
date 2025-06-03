@@ -18,7 +18,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=testDB', 'root', '');
 <body>
 
 <header>
-    <p class="header-title">Erste Website</p>
+    <p class="header-title">FullStack</p>
     <button id="theme-toggle">🌙 Dark Mode</button>
 </header>
 
@@ -45,7 +45,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=testDB', 'root', '');
 
         <p>
             aktuell zu finden unter:<br>
-            http://localhost/meinprojekt/<br>
+            http://localhost:63342/Fullstack/Main.php<br>
         </p>
 
         <br>
