@@ -10,7 +10,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=testDB', 'root', '');
     <meta name="author" content="Merlin90909">
     <!--<meta http-equiv="refresh" content="10">-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> erste Website </title>
+    <title>Route to Fullstack</title>
     <link rel = "stylesheet" href="css/style.css">
     <link rel = "icon" type="image/png" href="world-wide-web_1006771.png">
 </head>
@@ -18,65 +18,39 @@ $pdo = new PDO('mysql:host=localhost;dbname=testDB', 'root', '');
 <body>
 
 <header>
+    <p><?php
+        echo date("d.m.Y H:i:s");
+        ?></p>
     <p class="header-title">FullStack</p>
     <button id="theme-toggle">🌙 Dark Mode</button>
 </header>
-
-<nav>
-    <ul>
-        <!--
-        <li><a href="">Taschenrechner</a></li>
-        <li><a href="ausgabenTracker.php">Ausgabentracker</a></li>
-        <li><a href="html/link3.html">Uni</a></li>
-        -->
-        <?php
-        echo date("d.m.Y H:i:s");
-        ?>
-    </ul>
-</nav>
-
 <main>
     <article>
-        <h1>Allgemein</h1>
-        <p><?php
-            $name = "Merlin";
-            echo "Hallo! Mein Name ist $name. Mein Ziel ist es FullStack Developer zu werden."
-            ?></p>
-
-        <p>
-            aktuell zu finden unter:<br>
-            http://localhost:63342/Fullstack/Main.php<br>
-        </p>
-
+        <h1>Über mich:</h1>
+        <p>Hallo! mein Name ist Merlin. Aktuell studiere ich Informatik und bin auf dem Weg zum Fullstack-Entwickler.</p>
         <br>
 
     </article>
 
+
+        <section>
+            <h2>aktueller Stand/Skills</h2>
+            <ul class="roadmap-list">
+                <li><input type="checkbox" checked disabled> HTML & CSS ✅</li>
+                <li><input type="checkbox" checked disabled> Git & GitHub ✅</li>
+                <li><input type="checkbox" disabled> JavaScript ⏳</li>
+                <li><input type="checkbox" disabled> TypeScript 🔜</li>
+                <li><input type="checkbox" disabled> React 🔜</li>
+                <li><input type="checkbox" disabled> Node.js</li>
+                <li><input type="checkbox" disabled> SQL + Prisma</li>
+                <li><input type="checkbox" disabled> Next.js</li>
+                <li><input type="checkbox" disabled> Deployment</li>
+            </ul>
+        </section>
+
+
     <section>
-        <h2>Aktuelles</h2>
-        <fieldset>
-            <legend>Themen:</legend>
-            <div>
-                <input type="checkbox" id="html" name="interest" value="html"/>
-                <label for="html">html</label>
-            </div>
-            <div>
-                <input type="checkbox" id="css" name="interest" value="css"/>
-                <label for="css">css</label>
-            </div>
-            <div>
-                <input type="checkbox" id="jss" name="interest" value="jss"/>
-                <label for="jss">jss</label>
-            </div>
-            <div>
-                <input type="checkbox" id="php" name="interest" value="php"/>
-                <label for="php">php</label>
-            </div>
-        </fieldset>
-
         <h2>aktuelle Projekte:</h2>
-
-
 
     </section>
 

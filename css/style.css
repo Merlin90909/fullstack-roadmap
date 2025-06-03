@@ -36,6 +36,18 @@ nav ul {
     gap: 50px;
     font-size: 1.2rem;
 }
+.roadmap-list {
+    list-style: none;
+    padding: 0;
+    margin-left: 40px;
+
+}
+.roadmap-list li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    margin-left: 40px;
+
+}
 body {
      background-color: white;
  }
