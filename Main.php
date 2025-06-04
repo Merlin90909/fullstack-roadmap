@@ -16,7 +16,6 @@
 </head>
 
 <body>
-
 <header>
     <p><?php
         echo date("d.m.Y H:i:s");
