@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Kontakt </title>
     <link rel = "stylesheet" href="css/style.css">
-    <link rel = "icon" type="image/png" href="world-wide-web_1006771.png">
+    <link rel = "icon" type="image/png" href="assets/world-wide-web_1006771.png">
 </head>
 <body>
 <header>

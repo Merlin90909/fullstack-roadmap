@@ -1,5 +1,5 @@
 <?php
-$pdo = new PDO('mysql:host=localhost;dbname=testDB', 'root', '');
+#$pdo = new PDO('mysql:host=localhost;dbname=testDB', 'root', '');
 ?>
 <!DOCTYPE html>
 <html lang="de-DE">
@@ -12,7 +12,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=testDB', 'root', '');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Route to Fullstack</title>
     <link rel = "stylesheet" href="css/style.css">
-    <link rel = "icon" type="image/png" href="world-wide-web_1006771.png">
+    <link rel = "icon" type="image/png" href="assets/world-wide-web_1006771.png">
 </head>
 
 <body>
@@ -27,7 +27,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=testDB', 'root', '');
 <main>
     <article>
         <h1>Über mich:</h1>
-        <p>Hallo! mein Name ist Merlin. Aktuell studiere ich Informatik und bin auf dem Weg zum Fullstack-Entwickler.</p>
+        <p>Hallo, mein Name ist Merlin! Aktuell studiere ich Informatik und bin auf dem Weg zum Fullstack-Entwickler.</p>
         <br>
 
     </article>
@@ -47,12 +47,18 @@ $pdo = new PDO('mysql:host=localhost;dbname=testDB', 'root', '');
                 <li><input type="checkbox" disabled> Deployment</li>
             </ul>
         </section>
-
+    <br>
+    <br>
+    <br>
 
     <section>
         <h2>aktuelle Projekte:</h2>
-
+        <p>Nothing to see here....</p>
     </section>
+
+    <br>
+    <br>
+    <br>
 
     <section>
         <h2>Links</h2>
@@ -70,6 +76,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=testDB', 'root', '');
 
 <footer>
     <a href="kontakt.php">Kontakt </a>
+    <a href ="https://github.com/Merlin90909" target="_blank">GitHub</a>
     <p>© 2025 by Merlin90909</p>
 </footer>
 
