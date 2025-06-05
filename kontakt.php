@@ -17,10 +17,8 @@
 </header>
 <nav>
     <ul>
+        <li><span id="clock"></span></li>
         <li><a href="Main.php">Startseite</a></li>
-        <?php
-        echo date("d.m.Y H:i:s");
-        ?>
     </ul>
 </nav>
 <pre>
@@ -44,8 +42,9 @@
     <input type="text" id="anfrage" name="anfrage"><br>
     <input type="submit" value="Abschicken">
 </form>
-
 <br>
+<br>
+
 
 <br>
 <br>
@@ -54,5 +53,6 @@
     <p>© 2025 by Merlin90909</p>
 </footer>
 <script src="js/index.js"></script>
+<script src="js/Uhrzeit.js" defer></script>
 </body>
 </html>

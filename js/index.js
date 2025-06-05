@@ -12,19 +12,6 @@ document.getElementById("theme-toggle").addEventListener("click", function() {
     localStorage.setItem('darkmode', isDark);
 });
 
-/*Checkbox-Zustand speichern*/
-document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
-    // Beim Laden: gespeicherten Zustand anwenden
-    const saved = localStorage.getItem(checkbox.id);
-    if (saved !== null) {
-        checkbox.checked = saved === 'true';
-    }
-
-    // Bei Änderung: neuen Zustand speichern
-    checkbox.addEventListener('change', () => {
-        localStorage.setItem(checkbox.id, checkbox.checked);
-    });
-});
 
 //innerHTML = Ausgabe Text
 //document.getElementById("demo").innerHTML = "<p>Hello World</p>";

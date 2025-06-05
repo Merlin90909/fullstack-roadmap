@@ -17,11 +17,13 @@
 
 <body>
 <header>
-    <p><?php
-        echo date("d.m.Y H:i:s");
-        ?></p>
     <p class="header-title">FullStack</p>
     <button id="theme-toggle">🌙 Dark Mode</button>
+    <nav>
+        <ul>
+            <li><span id="clock"></span></li>
+        </ul>
+    </nav>
 </header>
 <main>
     <article>
@@ -80,6 +82,7 @@
 </footer>
 
 <script src="js/index.js"></script>
+<script src="js/Uhrzeit.js" defer></script>
 </body>
 
 </html>
