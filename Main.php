@@ -1,5 +1,5 @@
 <?php
-#$pdo = new PDO('mysql:host=localhost;dbname=testDB', 'root', '');
+$pdo = new PDO('mysql:host=localhost;dbname=testDB', 'root', '');
 ?>
 <!DOCTYPE html>
 <html lang="de-DE">
@@ -8,7 +8,6 @@
     <meta charset ="UTF-8">
     <meta name ="description" content ="eigene Website">
     <meta name="author" content="Merlin90909">
-    <!--<meta http-equiv="refresh" content="10">-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Route to Fullstack</title>
     <link rel = "stylesheet" href="css/style.css">
@@ -25,6 +24,7 @@
         </ul>
     </nav>
 </header>
+<div id="scroll-sentinel"></div>
 <main>
     <article>
         <h1>Über mich:</h1>
@@ -74,15 +74,23 @@
 <br>
 <br>
 <br>
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<button id="scroll-top" aria-label="Nach oben" hidden>Zurück zum Anfang...</button>
 <footer>
-    <a href="kontakt.php">Kontakt </a>
+    <a href="html/Kontakt.html">Kontakt </a>
     <a href ="https://github.com/Merlin90909" target="_blank">GitHub</a>
     <p>© 2025 by Merlin90909</p>
 </footer>
 
-<script src="js/index.js"></script>
+<script src="js/darkmode.js"></script>
 <script src="js/Uhrzeit.js" defer></script>
+<script src="js/Scroll-Button.js" defer></script>
+
 </body>
 
 </html>

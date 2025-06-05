@@ -176,3 +176,21 @@ a:active{
         margin: 0 1rem;
     }
 }
+
+     /* Scroll‑to‑Top‑Button */
+#scroll-top {
+    /*bottom: 1rem;*/
+    right: 1rem;
+    padding: 0.6em 0.8em;
+    font-size: 1.25rem;
+    border: none;
+    /*border-radius: 50%;*/
+    background: #333;
+    color: white;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+    z-index: 1000; /* über allem schweben */
+}
+#scroll-top:hover { opacity: 1; }
+#scroll-top:focus { outline: 2px solid #fff; }
