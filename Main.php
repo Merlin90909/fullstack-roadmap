@@ -6,7 +6,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=testDB', 'root', '');
 
 <head>
     <meta charset ="UTF-8">
-    <meta name ="description" content ="eigene Website">
+    <meta name ="description" content ="Merlin90909">
     <meta name="author" content="Merlin90909">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Route to Fullstack</title>
@@ -27,7 +27,8 @@ $pdo = new PDO('mysql:host=localhost;dbname=testDB', 'root', '');
 <div id="scroll-sentinel"></div>
 <main>
     <article>
-        <h1>Über mich:</h1>
+        <h2>Über mich:</h2>
+        <br>
         <p>Hallo, mein Name ist Merlin! Aktuell studiere ich Informatik und bin auf dem Weg zum Fullstack-Entwickler.</p>
         <br>
 
@@ -36,17 +37,8 @@ $pdo = new PDO('mysql:host=localhost;dbname=testDB', 'root', '');
 
         <section>
             <h2>aktueller Stand/Skills</h2>
-            <ul class="roadmap-list">
-                <li><input type="checkbox" checked disabled> HTML & CSS ✅</li>
-                <li><input type="checkbox" checked disabled> Git & GitHub ✅</li>
-                <li><input type="checkbox" disabled> JavaScript ⏳</li>
-                <li><input type="checkbox" disabled> TypeScript 🔜</li>
-                <li><input type="checkbox" disabled> React 🔜</li>
-                <li><input type="checkbox" disabled> Node.js</li>
-                <li><input type="checkbox" disabled> SQL + Prisma</li>
-                <li><input type="checkbox" disabled> Next.js</li>
-                <li><input type="checkbox" disabled> Deployment</li>
-            </ul>
+            <br>
+            <p>HTML & CSS ✅ ==> Git & GitHub ✅ ==> JavaScript ⏳==> TypeScript 🔜 ==> React 🔜 ==> Node.js ==> SQL + Prisma ==> Next.js ==> Deployment</p>
         </section>
     <br>
     <br>
@@ -54,7 +46,8 @@ $pdo = new PDO('mysql:host=localhost;dbname=testDB', 'root', '');
 
     <section>
         <h2>aktuelle Projekte:</h2>
-        <p>Nothing to see here....</p>
+        <br>
+        <p>Nothing to see here...</p>
     </section>
 
     <br>
@@ -62,11 +55,9 @@ $pdo = new PDO('mysql:host=localhost;dbname=testDB', 'root', '');
     <br>
 
     <section>
-        <h2>Links</h2>
+        <h2>Programmiersprachen</h2>
         <br>
-        <a href = "https://www.youtube.com/" target="_blank"> Hier geht es zu YouTube!</a>
-        <!-- href erzeugt als Artikel einen Link hinter dem nachfolgenden Titel-->
-        <!--target="blank" gibt an, dass der Link in einem neuen Tab geöffnet wird-->
+        <i></i>
         <br>
         <br>
     </section>
