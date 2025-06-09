@@ -16,36 +16,52 @@ $pdo = new PDO('mysql:host=localhost;dbname=testDB', 'root', '');
 
 <body>
 <header>
-    <p class="header-title">FullStack</p>
-    <button id="theme-toggle">🌙 Dark Mode</button>
+    <p class="header-title">Merlin's-World</p>
+    <button id="theme-toggle" aria-pressed="false">🌙 Dark Mode</button>
     <nav>
         <ul>
             <li><span id="clock"></span></li>
         </ul>
     </nav>
 </header>
+<nav class="page-nav">
+    <ul>
+        <li><a href="#stand">aktueller Stand</a></li>
+        <li><a href="#aktuelle_Projekte">aktuelle Projekte</a></li>
+        <li><a href="#Programmiersprachen">Programmiersprachen</a></li>
+    </ul>
+</nav>
+
 <div id="scroll-sentinel"></div>
+<br>
 <main>
     <article>
-        <h2>Über mich:</h2>
-        <br>
+        <div class="profile-image">
+            <img src="/assets/Bild_Merlin.png" alt="Profilbild von Merlin">
+        </div>
         <p>Hallo, mein Name ist Merlin! Aktuell studiere ich Informatik und bin auf dem Weg zum Fullstack-Entwickler.</p>
         <br>
-
     </article>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
-
-        <section>
-            <h2>aktueller Stand/Skills</h2>
+    <section>
+            <h2 id="stand">aktueller Stand / Skills</h2>
             <br>
-            <p>HTML & CSS ✅ ==> Git & GitHub ✅ ==> JavaScript ⏳==> TypeScript 🔜 ==> React 🔜 ==> Node.js ==> SQL + Prisma ==> Next.js ==> Deployment</p>
+            <p>HTML & CSS ✅ ==> Git & GitHub ✅ ==> JavaScript ✅==> TypeScript ⏳ ==> React 🔜 ==> Node.js ==> SQL + Prisma ==> Next.js ==> Deployment</p>
         </section>
     <br>
     <br>
     <br>
 
     <section>
-        <h2>aktuelle Projekte:</h2>
+        <h2 id="aktuelle_Projekte"> aktuelle Projekte</h2>
         <br>
         <p>Nothing to see here...</p>
     </section>
@@ -55,9 +71,15 @@ $pdo = new PDO('mysql:host=localhost;dbname=testDB', 'root', '');
     <br>
 
     <section>
-        <h2>Programmiersprachen</h2>
+        <h2 id="Programmiersprachen">Programmiersprachen</h2>
         <br>
-        <i></i>
+        <div class="lang-icons">
+            <img src="https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/java/java-original.svg"        alt="Java">
+            <img src="https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/python/python-original.svg"     alt="Python">
+            <img src="https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/html5/html5-original.svg"       alt="HTML5">
+            <img src="https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/css3/css3-original.svg"         alt="CSS3">
+            <img src="https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/javascript/javascript-original.svg" alt="JavaScript">
+        </div>
         <br>
         <br>
     </section>

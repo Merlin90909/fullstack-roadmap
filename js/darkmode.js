@@ -1,13 +1,18 @@
 // Darkmode-Zustand wiederherstellen beim Laden
+const btn = document.getElementById("theme-toggle");
+// initial ARIA state: not pressed (light mode)
+btn.setAttribute("aria-pressed", "false");
 if (localStorage.getItem('darkmode') === 'true') {
     document.body.classList.add('dark-mode');
-    document.getElementById("theme-toggle").textContent = " ☀️White-Mode";
+    btn.textContent = " ☀️White-Mode";
+    btn.setAttribute("aria-pressed", "true");
 }
 document.getElementById("theme-toggle").addEventListener("click", function() {
     document.body.classList.toggle("dark-mode");
 
     const isDark = document.body.classList.contains("dark-mode");
     this.textContent = isDark ? " ☀️White-Mode" : " 🌙 Dark-Mode";
+    this.setAttribute("aria-pressed", String(isDark));
 
     localStorage.setItem('darkmode', isDark);
 });

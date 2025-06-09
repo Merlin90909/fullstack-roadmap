@@ -27,6 +27,7 @@ h1{ font-size:clamp(2.2rem,3vw + 1rem,3rem); }
 h2{ font-size:clamp(1.4rem,2vw + .8rem,1.6rem); }
 h3{ font-size:clamp(1rem,1.5vw + .6rem,1.2rem); }
 p{
+    text-align: center;
     margin-left: 40px;
     font-size: 1.2rem;
 }
@@ -41,16 +42,6 @@ nav ul {
     display: flex;
     gap: 50px;
     font-size: 1.2rem;
-}
-.roadmap-list {
-    list-style: none;
-    padding: 0;
-    margin-left: 40px;
-}
-.roadmap-list li {
-    margin-bottom: 0.5rem;
-    font-size: 1.1rem;
-    margin-left: 40px;
 }
 body {
      background-color: var(--bg);
@@ -150,44 +141,44 @@ button:hover{
     color: #ffffff;
 }
 
-/*mobiles Layout*/
-@media (max-width: 768px) {
+/*!*mobiles Layout*!*/
+/*@media (max-width: 768px) {*/
 
-    /* Header stacks vertically */
-    header {
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-        height: auto;
-    }
+/*    !* Header stacks vertically *!*/
+/*    header {*/
+/*        flex-direction: column;*/
+/*        align-items: center;*/
+/*        gap: 1rem;*/
+/*        height: auto;*/
+/*    }*/
 
-    /* Navigation items below each other */
-    nav ul {
-        flex-direction: column;
-        gap: 1rem;
-        padding: 1rem 0;
-    }
+/*    !* Navigation items below each other *!*/
+/*    nav ul {*/
+/*        flex-direction: column;*/
+/*        gap: 1rem;*/
+/*        padding: 1rem 0;*/
+/*    }*/
 
-    /* Smaller hero title for mobile */
-    .header-title {
-        font-size: 2em;
-    }
+/*    !* Smaller hero title for mobile *!*/
+/*    .header-title {*/
+/*        font-size: 2em;*/
+/*    }*/
 
-    /* Roadmap list without left indents */
-    .roadmap-list {
-        margin-left: 0;
-    }
+/*    !* Roadmap list without left indents *!*/
+/*    .roadmap-list {*/
+/*        margin-left: 0;*/
+/*    }*/
 
-    .roadmap-list li {
-        margin-left: 0;
-        font-size: 1rem;
-    }
+/*    .roadmap-list li {*/
+/*        margin-left: 0;*/
+/*        font-size: 1rem;*/
+/*    }*/
 
-    /* Slight side padding for small screens */
-    body {
-        margin: 0 1rem;
-    }
-}
+/*    !* Slight side padding for small screens *!*/
+/*    body {*/
+/*        margin: 0 1rem;*/
+/*    }*/
+/*}*/
 
      /* Scroll‑to‑Top‑Button */
 #scroll-top {
@@ -207,3 +198,50 @@ button:hover{
 }
 #scroll-top:hover { opacity: 1; }
 #scroll-top:focus { outline: 2px solid #fff; }
+
+/*Hauptbild*/
+.profile-image {
+    text-align: center;       /* Bild zentrieren */
+    margin: 4rem 0; /* etwas Abstand oben und unten */
+
+}
+
+.profile-image img {
+    max-width: 500px;         /* passt die Größe an */
+    width: 100%;              /* responsive */
+    height: auto;             /* Seitenverhältnis beibehalten */
+    border-radius: 50%;       /*!* optional: rundes Bild *!*/
+    object-fit: cover;        /* weich skalieren */
+}
+/*Icons*/
+.lang-icons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:1rem;
+    margin:2rem 0;
+}
+.lang-icons img{
+    height: 50px;
+    vertical-align: middle;
+    margin: 0 10px;
+    display: inline-block;
+}
+.page-nav ul{
+    list-style:none;
+    margin:0;
+    padding:0.5rem 0;
+    display:flex;
+    justify-content:center;
+    gap:2rem;
+    font-size:1.2rem;
+}
+.page-nav a{
+    color:blue;
+    text-decoration:none;
+}
+.page-nav a:hover{
+    text-decoration:underline;
+    color:red;
+}
