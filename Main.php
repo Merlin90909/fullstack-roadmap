@@ -84,19 +84,15 @@ $pdo = new PDO('mysql:host=localhost;dbname=testDB', 'root', '');
         <br>
     </section>
 </main>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 <button id="scroll-top" aria-label="Nach oben" hidden>Zurück zum Anfang...</button>
 <footer>
-    <a href="html/Kontakt.html">Kontakt </a>
-    <a href ="https://github.com/Merlin90909" target="_blank">GitHub</a>
+    <div>
+        <a href="html/Kontakt.html">Kontakt </a>
+        <a href ="https://github.com/Merlin90909" target="_blank">GitHub</a>
+        <a href ="html/ToDo-Liste">ToDo-Liste</a>
+    </div>
+
     <p>© 2025 by Merlin90909</p>
 </footer>
 

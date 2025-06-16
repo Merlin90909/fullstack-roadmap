@@ -21,7 +21,7 @@
 h1,h2,h3{
     margin:35px 0 10px 10px;
     color:var(--brand);
-    /*text-align:center;      !* mittig ausrichten *!*/
+    /*text-align:center;       mittig ausrichten*/
 }
 h1{ font-size:clamp(2.2rem,3vw + 1rem,3rem); }
 h2{ font-size:clamp(1.4rem,2vw + .8rem,1.6rem); }
@@ -80,6 +80,7 @@ footer a{
 footer a:hover {
     color: orangered;
 }
+/*Erscheinungsbild-Link*/
 a:link{
     color: blue;
     background-color: transparent;
@@ -180,7 +181,7 @@ button:hover{
 /*    }*/
 /*}*/
 
-     /* Scroll‑to‑Top‑Button */
+/* Scroll‑to‑Top‑Button */
 #scroll-top {
     position: fixed;
     bottom: 1rem;
