@@ -11,9 +11,66 @@
 </head>
 <body>
 
+<h2>Zählerbutton</h2>
   <button id="interaktiv">Bitte klick mich!</button>
   <button id="reset">Reset</button>
-  <output></output>
+  <output id="Zählerausgabe"></output>
+<br>
+<br>
+<h2>Tastatur</h2>
+<div id="keyboard">
+<p>
+  <output id="Tastaturausgabe"></output>
+</p>
+<p>
+  <button>Q</button>
+  <button>W</button>
+  <button>E</button>
+  <button>R</button>
+  <button>T</button>
+  <button>Z</button>
+  <button>U</button>
+  <button>I</button>
+  <button>O</button>
+  <button>P</button>
+  <button id="delete">Löschen</button>
+
+</p>
+<p>
+  <button>A</button>
+  <button>S</button>
+  <button>D</button>
+  <button>F</button>
+  <button>G</button>
+  <button>H</button>
+  <button>J</button>
+  <button>K</button>
+  <button>L</button>
+</p>
+<p>
+  <button>Y</button>
+  <button>X</button>
+  <button>C</button>
+  <button>V</button>
+  <button>B</button>
+  <button>N</button>
+  <button>M</button>
+</p>
+<p>
+  <button id="space">&nbsp;</button>
+</p>
+</div>
+<br>
+<br>
+
+<h2>To-Do</h2>
+<form id="controls">
+  <label for="newtask">Aufgabe hinzufügen</label>
+  <input id="newtask">
+  <button type="button" id="add">Hinzufügen!</button>
+</form>
+<ul id="tasklist">
+</ul>
 
 </body>
 <script src="/js/Js_Testen.js"></script>

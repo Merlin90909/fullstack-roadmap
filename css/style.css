@@ -246,3 +246,8 @@ button:hover{
     text-decoration:underline;
     color:red;
 }
+
+/*Output Js_Testen*/
+output{
+    display:block;
+}

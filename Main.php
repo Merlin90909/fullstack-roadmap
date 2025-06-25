@@ -90,13 +90,13 @@ $pdo = new PDO('mysql:host=localhost;dbname=testDB', 'root', '');
     <div>
         <a href="html/Kontakt.html">Kontakt </a>
         <a href ="https://github.com/Merlin90909" target="_blank">GitHub</a>
-        <a href ="html/ToDo-Liste">ToDo-Liste</a>
+        <a href ="html/Js_Testen.html">ToDo-Liste</a>
     </div>
 
     <p>© 2025 by Merlin90909</p>
 </footer>
 
-<script src="js/darkmode.js"></script>
+<script src="js/Darkmode.js"></script>
 <script src="js/Uhrzeit.js" defer></script>
 <script src="js/Scroll-Button.js" defer></script>
 
