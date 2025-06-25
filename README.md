@@ -3,3 +3,8 @@ Das Ziel dieses Projekts ist es, einen Einblick in das Fullstack-Development zu 
 
 Aktueller Stand:
 Ich habe noch ein paar Probleme mit JavaScript und der dazugehörigen Syntax. Daher möchte ich mein Wissen voerst vertiefen.
+
+25.06.
+- habe ein Paar triviale JavaSrcipt-Projekte hinzugefügt
+
+ 
